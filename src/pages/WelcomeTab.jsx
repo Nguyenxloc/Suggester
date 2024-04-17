@@ -71,15 +71,15 @@ const WelcomeTab = () => {
     }, [err1,err2]);
 
     return (
-        <div className="" style={{ backgroundColor: "#fffcfc", width:"100%" }}>
-            <div className="">
-                <textarea className="form-control me-2" name="adrs"
+        <div className="" style={{ backgroundColor: "#fffcfc", width:"100%"}}>
+            <div className="w-6/12">
+                <textarea className="w-full ms-5 mt-5" name="adrs"
                     onChange={handleChange} placeholder="Type 5 address with space beetween each of address..."
                     aria-label="Search" style={{height:250}} />
             </div>
-            {(err1===0) ? <p style={{color:"red"}}>please enter valid address</p>:<p></p>}
-            <div className="">
-            <select className="form-select" name="chainID" onChange={handleChangeSelect} aria-label="Default select example"required>
+            {(err1===0) ? <p className="w-6/12 ms-5" style={{color:"red"}}>please enter valid address</p>:<p></p>}
+            <div className="w-6/12">
+            <select className="w-full ms-5" name="chainID" onChange={handleChangeSelect} aria-label="Default select example"required>
                 <option value="">Select chainID</option>
                 <option value="chainid1">ChainID1</option>
                 <option value="chainid324">ChainID324</option>
