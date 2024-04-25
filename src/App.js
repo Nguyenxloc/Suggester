@@ -12,10 +12,10 @@ export class App extends Component {
         <div className="flex gap-5" style={{ backgroundColor: "#f0f4fc" }}>
           <SideBar />
           <Routes>
-            <Route path="/crypto-checker" element={<WelcomeTab />}></Route>
-            <Route path="/crypto-checker/calculator" element={<Calculator/>}/>
-            <Route path="/crypto-checker/wallet" element={<WelcomeTab/>}/>
-            <Route path="/crypto-checker/wallet/:chainID/:id" element={<WalletPage/>}/>
+            <Route path="/cryptoChecker" element={<WelcomeTab />}></Route>
+            <Route path="/cryptoChecker/calculator" element={<Calculator/>}/>
+            <Route path="/cryptoChecker/wallet" element={<WelcomeTab/>}/>
+            <Route path="/cryptoChecker/wallet/:chainID/:id" element={<WalletPage/>}/>
           </Routes>
         </div>
       </div>

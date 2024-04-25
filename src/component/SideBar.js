@@ -18,7 +18,7 @@ export default function SideBar(props) {
     };
     
     const routeTo = (path) => {
-        navigate(`/crypto-checker/${path.toLowerCase()}`);
+        navigate(`/cryptoChecker/${path.toLowerCase()}`);
     };
     
     return (
@@ -35,7 +35,7 @@ export default function SideBar(props) {
                     },
                 }}
             >
-                <p className="ms-3 mt-3" style={{fontSize: 20}}><strong><i className="bi bi-database-check me-2"></i>CryptoChecker</strong>
+                <p className="ms-3 mt-3" style={{fontSize: 20}}><strong><i className="bi bi-database-check me-2"></i>Suggester</strong>
                 </p>
                 <MenuItem active={x1} onClick={()=> (routeTo("Wallet"),resetAll(),setX1(true))} ><i className="bi bi-house me-2" ></i>Wallet</MenuItem>
             </Menu>

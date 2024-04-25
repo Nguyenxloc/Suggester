@@ -3,14 +3,14 @@ import { useNavigate } from 'react-router-dom';
 const BackButton = ({url}) => {
     const navigate = useNavigate();
     const [buttonStyle, setButtonStyle] = useState({
-        backgroundColor: '#fffcfc',
-        cursor: 'pointer',
-        width:'30px',
-        height:'30px',
-        transition: 'background-color 0.3s ease',
-        borderRadius: '50%',
-        border:'none',
-        textAlign: 'center',
+        backgroundColor: "#fffcfc",
+        cursor: "pointer",
+        width:"30px",
+        height:"30px",
+        transition: "background-color 0.3s ease",
+        borderRadius: "50%",
+        border:"none",
+        textAlign: "center",
         lineHeight:"10px"
     });
 
@@ -36,9 +36,9 @@ const BackButton = ({url}) => {
     };
 
     return (
-        <div className="d-flex flex-row mb-3" style={{height:30}}>
+        <div className="flex mb-3" style={{height:30}}>
             <button
-                className="mt-2"
+                className="mt-3"
                 style={buttonStyle}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
@@ -46,7 +46,7 @@ const BackButton = ({url}) => {
             >
                 <i className="bi bi-arrow-left"></i>
             </button>
-            <div className="p-2">Back</div>
+            <div className="mt-4">Back</div>
         </div>
     );
 };

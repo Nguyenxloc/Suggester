@@ -24,7 +24,7 @@ const WelcomeTab = () => {
     }
 
     const routeTo = (address, chainID) => {
-        navigate(`/crypto-checker/wallet/${chainID}/${address.toLowerCase()}`);
+        navigate(`/cryptoChecker/wallet/${chainID}/${address.toLowerCase()}`);
     }
 
     const handleChange = (event) => {

@@ -58,8 +58,7 @@ class Home extends Component {
         this.setPage= this.setPage.bind(this);
         this.setWallet= this.setWallet.bind(this);
         this.profileData= this.profileData.bind(this);
-    }
-
+    }   
     async componentDidMount() {
         // Set up a timeout to update the state after 3000 milliseconds (3 seconds)
     }

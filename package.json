@@ -1,12 +1,13 @@
 {
-  "homepage": "https://nguyenxloc.github.io/cryptoChecker",
-  "name": "cryptoChecker",
+  "homepage": "https://nguyenxloc.github.io/suggester",
+  "name": "suggester",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap-icons": "^1.11.3",
     "ethereum-address": "^0.0.4",
     "ethers": "^6.11.1",
     "framer-motion": "^11.0.3",
