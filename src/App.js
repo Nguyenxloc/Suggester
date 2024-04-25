@@ -12,7 +12,7 @@ export class App extends Component {
         <div className="flex gap-5" style={{ backgroundColor: "#f0f4fc" }}>
           <SideBar />
           <Routes>
-            <Route path="/suggester" element={<WelcomeTab />}></Route>
+            <Route path="/suggester/" element={<WelcomeTab />}></Route>
             <Route path="/suggester/calculator" element={<Calculator/>}/>
             <Route path="/suggester/wallet" element={<WelcomeTab/>}/>
           </Routes>
